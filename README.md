@@ -18,3 +18,8 @@ Software Develpoer
 In your terminal: 
 - CD into project directory
 - start the server: `php -S localhost:8888`
+
+## Reference Material
+
+- [PHP for Beginners, Laracasts](https://laracasts.com/series/php-for-beginners-2023-edition)
+- [Bootstrap Forms](https://getbootstrap.com/docs/4.4/components/forms/)

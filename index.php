@@ -1,7 +1,7 @@
 <?php
 
 $routes = [
-  '/' => 'views/form.html',
+  '/' => 'views/form.view.html',
   '/submit' => 'submit.php',
 ];
 
