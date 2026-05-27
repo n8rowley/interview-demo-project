@@ -10,7 +10,8 @@ Software Develpoer
 
 ## Installation
 
-- Install php 8.x
+- Install PHP 8.x
+- Ensure the sqlite php extension is installed for your version of PHP
 - Download project folder
 
 ## Serving the site
@@ -23,3 +24,4 @@ In your terminal:
 
 - [PHP for Beginners, Laracasts](https://laracasts.com/series/php-for-beginners-2023-edition)
 - [Bootstrap Forms](https://getbootstrap.com/docs/4.4/components/forms/)
+- [SQLite Docs](https://sqlite.org/docs.html)
