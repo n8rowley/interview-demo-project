@@ -25,3 +25,4 @@ In your terminal:
 - [PHP for Beginners, Laracasts](https://laracasts.com/series/php-for-beginners-2023-edition)
 - [Bootstrap Forms](https://getbootstrap.com/docs/4.4/components/forms/)
 - [SQLite Docs](https://sqlite.org/docs.html)
+- [W3Schools JQuery Tutorial](https://www.w3schools.com/jquery/default.asp)
