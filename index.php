@@ -2,7 +2,7 @@
 
 $routes = [
   '/' => 'views/form.view.html',
-  '/submit' => 'submit.php',
+  '/submit' => 'controllers/submit.php',
 ];
 
 $path = parse_url($_SERVER['REQUEST_URI'])['path'];

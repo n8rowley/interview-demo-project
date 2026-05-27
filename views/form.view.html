@@ -28,7 +28,7 @@
     <div class="container">
       <h1>Summary</h1>
       <p>Submit this form to make a record a summary of the interview</p>
-      <form id="interviewSummary">
+      <form id="interviewSummary" method="POST" action="/submit">
         <div class="form-group">
           <label for="applicantName">Applicant Name</label>
           <input type="text" class="form-control" id="applicantName" name="name">
@@ -62,7 +62,7 @@
       $(function(){
 
         $('#interviewSummary').submit(function(event) {
-          event.preventDefault();
+          // event.preventDefault();
 
           var formData = $(this).serializeArray(); 
           console.log(formData);
