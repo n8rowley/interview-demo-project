@@ -16,6 +16,7 @@ if (array_key_exists($path, $routes)) {
   http_response_code(404);
 }
 
+// helper function for inspecting and debugging
 function dd($var) {
   echo "<pre>";
   var_dump($var);
