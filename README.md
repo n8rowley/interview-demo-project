@@ -8,6 +8,10 @@ Software Develpoer
 
 *Create an HTML form that uses jQuery to submit the results to a PHP function which uses a SQL query to insert the form results into a fictitious database table.*
 
+## Description
+
+An app for hiring managers to keep internal notes and information about interviews they've held with various candidates. 
+
 ## Installation
 
 - Install PHP 8.x
