@@ -75,6 +75,7 @@
             function() {
               $('#submitSuccess').removeClass('d-none');
               $('#interviewSummary').find('input, textarea, select').val('');
+              $('#interviewSummary').find('input[type=checkbox]').prop('checked', false);
             }
           );
         });
