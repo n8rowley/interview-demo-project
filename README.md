@@ -1,4 +1,4 @@
-# IworQ Interview Project
+# Interview Demo Project
 
 ### Nate Rowley
 
@@ -11,7 +11,7 @@ Software Develpoer
 ## Installation
 
 - Install PHP 8.x
-- Ensure the sqlite php extension is installed for your version of PHP
+- Ensure the `sqlite3` and `pdo_sqlite` modules are installed for your version of PHP (`$ php -m | grep sqlite`)
 - Download project folder
 
 ## Serving the site
@@ -25,4 +25,5 @@ In your terminal:
 - [PHP for Beginners, Laracasts](https://laracasts.com/series/php-for-beginners-2023-edition)
 - [Bootstrap Forms](https://getbootstrap.com/docs/4.4/components/forms/)
 - [SQLite Docs](https://sqlite.org/docs.html)
+- [SQLite Tutorial](https://www.sqlitetutorial.net/)
 - [W3Schools JQuery Tutorial](https://www.w3schools.com/jquery/default.asp)
