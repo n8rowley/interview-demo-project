@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>405 - Method Not Allowed</title>
+
+    <!-- Bootstrap 4 -->
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    >
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            height: 100vh;
+        }
+
+        .error-container {
+            height: 100vh;
+        }
+
+        .error-code {
+            font-size: 7rem;
+            font-weight: 700;
+            color: #343a40;
+        }
+
+        .error-message {
+            font-size: 1.5rem;
+            color: #6c757d;
+        }
+
+        .btn-home {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row justify-content-center align-items-center text-center error-container">
+        <div class="col-md-6">
+            <div class="error-code">405</div>
+
+            <h1 class="mb-3">Method Not Allowed</h1>
+
+            <p class="error-message mb-4">
+                The request method used for this page is not allowed.
+            </p>
+
+            <a href="/" class="btn btn-primary btn-lg btn-home">
+                Return Home
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
