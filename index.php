@@ -1,5 +1,7 @@
 <?php
 
+require "InterviewTable.php";
+
 $routes = [
   '/' => 'views/form.view.html',
   '/submit' => 'controllers/submit.php',
