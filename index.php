@@ -3,7 +3,7 @@
 require "InterviewTable.php";
 
 $routes = [
-  '/' => 'views/form.view.html',
+  '/' => 'views/form.html',
   '/submit' => 'controllers/submit.php',
 ];
 
